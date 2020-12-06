@@ -1,0 +1,9 @@
+import model HC_NLO_X0_UFO-full
+
+define p = g u d s u~ d~ s~ c c~ b b~
+define j = g u d s u~ d~ s~ c c~ b b~
+
+generate p p > x0 b
+add process p p > x0 b~
+
+output bH -nojpeg
